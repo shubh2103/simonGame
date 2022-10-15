@@ -1,0 +1,136 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  color: #FEF2BF;
+}
+.board{
+  display: inline-block;
+}
+#refresh{
+  cursor: pointer;
+  background-color: yellow;
+  color: black;
+  font-size: 2rem;
+  height: 40px;
+  width: 150px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+#best-score {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  color: #FEF2BF;
+}
+.disp{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  padding: 5px 0;
+}
+.body{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  padding: 5px 0;
+}
+.main{
+  display: inline-block;
+}
+
+.start{
+  cursor: pointer;
+  background-color: yellow;
+  color: black;
+  font-size: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: auto;
+  height: 40px;
+  width: 100px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+.end{
+  cursor: pointer;
+  background-color: yellow;
+  color: black;
+  font-size: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: auto;
+  height: 50px;
+  width: 100px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+
+.Rules{
+  cursor: pointer;
+  background-color: yellow;
+  color: black;
+  font-size: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: auto;
+  height: 40px;
+  width: 100px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.btn {
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 10rem;
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.brown {
+  background-color: #340f0f;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.disable{
+  pointer-events: none;
+}
+
+a{
+  text-decoration: none;
+}

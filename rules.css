@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-color: #011F3F;
+  }
+  #go-back{
+    text-align: center;
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+    font-size: 3rem;
+    height: 70px;
+    width: 500px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin:auto
+  }
+  #title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    color: #FEF2BF;
+  }
+  #rules {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    color: #FEF2BF;
+  }
+
+  a{
+    text-decoration: none;
+  }
